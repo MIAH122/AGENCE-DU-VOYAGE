@@ -69,11 +69,16 @@ i{
 }
 .logo{
     align-items: center;
-    flex-direction: row;
     width: 50%;
-    padding: 1rem;
+    padding: .5rem;
 }
-
+img{
+    margin-left: 1em;
+}
+.oo{
+    margin-top: -1rem;
+    margin-right: 9rem;
+}
 .link{
     display: flex;
     list-style: none;
@@ -103,11 +108,13 @@ header{
     text-align: center;
     font-size: 1.5rem;
     letter-spacing: 0.3rem;
-    color: antiquewhite;
+    color:black;
 }
 .text{
     text-align: center;
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
 }
 .clik{
     width: 100px;
@@ -134,17 +141,22 @@ header{
     text-align: center;
     font-size: 1.5rem;
 }
-.sous-titre{
+.sous-titre0{
     display: flex;
-    gap: 4rem;
-    padding: 0 5%;
+    gap: 3rem;
+    padding: .5%;
+}
+.sous-titre{
+    gap: 3rem;
+    padding: .5%;
 }
 .par1{
     display: flex;
     gap: 2rem;
 }
 .photo{
-    background: url(./images/sec-3-img-1.png) no-repeat;
+    margin-top: 2.1rem;
+    background: url(./images/nosy\ be\ é.jpg) no-repeat;
     width: 50%;
     height: 100vh;
 }
@@ -153,9 +165,10 @@ header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 3rem;
 }
-.tay{
+.sous-titre1{
     padding: 2rem;
 }
+
 ul{
     list-style: none;
 }
@@ -176,39 +189,367 @@ p{
     transition: 0.5rem;
     border:1px solid black ;
 }
+
 .click:hover{
     background:yellow ;
     transition: 0.5rem;
 }
+
 section{
     text-align: center;
-    background: url(./images/sec-5-bg.png) no-repeat;
-    height: 80vh;
     
 }
-.carre{
-    justify-content: space-around;
-}
-.zaza{
+
+
+.sous-titre3{
     border: 1px solid black;
     height: 50vh;
     width: 270px;
     border-radius: 1rem;
+    background: white;
 }
 
 .carre{
     display: flex;
+    color:black;
+    justify-content: space-between;
+    
+
 }
-.vola{
+section{
+    background: url(./images/sec-7-bg-2.png)no-repeat;
+    height: 100vh;
+    
+}
+
+.argent{
     display: flex;
     gap: 1em;
     border: 1px solid black;
-    background-color: red;
+    background-color: yellow;
     width: 260px;
     margin-right: 3rem;
 }
+
 .paragraphe{
     display: flex;
     padding: 1rem;
     gap: 1em;
 }
+
+.tt{
+    margin-bottom: 30px;
+}
+
+.sidecont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}  
+.paragraphe2{
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+    padding: -10px;
+    line-height: px;
+}
+.partie2{
+    text-align: center;
+    background:url(images/sec-8-bg.png) no-repeat;
+    height: 100vh;
+}
+.logo3{
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+}
+
+.carre2{
+    display: flex;
+}
+.sous-titre2{
+    
+    height: 50vh;
+    width: 280px;
+    border-radius: 1rem;
+    background: white;
+    justify-content: space-between; 
+    width: 280px;
+    border-radius: 1rem; 
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0,0, 0);
+    width:110%;
+    text-align: center;
+    margin: 20px;
+}
+
+
+button{
+    background: rgb(189, 189, 13);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+p{
+    padding: 10px;
+}
+.carre1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.IMAGESS{
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background: url(./images/sec-8-img-1.png) no-repeat;
+    /* margin-left: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    display: inline;
+}
+
+.information{
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+   font-size: 10;
+   padding: 150px;
+   margin-top: 0px;
+   background:url(./images/h-bg.png)no-repeat;
+   
+} 
+
+.HH{
+    text-align: center;
+    padding:1.5rem;
+    color:green;
+    background-color: aqua;
+}
+.EE{
+    text-align: center;
+}
+.nosybe{
+
+    background:url(./sary/nosy.jpg)no-repeat;
+    color: aliceblue;
+    height: 100vh;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.txt{
+
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    padding: 200px;
+}
+
+
+.sar{
+    width: 550px;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding-left: 50px;
+    
+}
+.ph{
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: url(./images/sec-8-bg.png)no-repeat;
+    color: aliceblue;
+}
+.Majuga{
+    display: flex;
+    background: aqua;
+}
+.noo{
+    border-radius: 112px;
+
+    
+}
+.menu-gl{
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+    background:url(./images/sec-8-bg.png)no-repeat;
+    justify-content: space-between;
+    box-shadow: inset;
+    height: 100vh;
+}
+.s{
+    border-radius: 2px;
+    width: 350px;
+    height: 70vh;
+    border: 1px solid black;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: url(./images/nosy\ be.jpg) no-repeat;
+
+}
+.lk{
+    height: 35vh;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 3rem 1rem;
+    background: url(./sary/ruins-of-manda\ fort.jpg)no-repeat;
+    background-size: cover;
+}
+.ll{
+    height: 35vh;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 3rem 1rem;
+    background: url(./sary/joli\ ampefy.jpg)no-repeat;
+    background-size: cover;
+}
+.lm{
+    height: 35vh;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    padding: 3rem 1rem;
+    background: url(./sary/bab.webp)no-repeat;
+    background-size: cover;
+}
+.sdd{
+    margin-left: 0.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+    color:antiquewhite;
+}
+.division{
+    display: flex;
+    margin: 0.5rem;
+    justify-content: space-between;
+}
+.entete{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times,
+     'Times New Roman', serif;
+    text-decoration: dashed;
+}
+.toli{
+    display: flex;
+}
+.sa{
+    /* display: flex; */
+    gap: 1rem;
+}
+
+
+.destination {
+    background-color: #004080;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.si {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.rr {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+}
+
+/* Destinations */
+.destinations {
+    padding: 3rem 5%;
+    background: white;
+    /* background: black; */
+    height: 170vh;
+}
+
+.destinations h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.destination-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.destination-item:hover {
+    transform: scale(1.05);
+}
+
+.destination-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destination-item h3 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #004080;
+}
+
+.destination-item p {
+    padding: 0 1rem 1rem;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.price {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6600;
+    padding: 0 1rem 1rem;
+    text-align: right;
+}
+
+/* Pied de page */
+/* Style des boutons dans les destinations */
+.destination-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.btn-book, .btn-info {
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    background-color: #ff6600; /* Couleur pour "Réservez maintenant" */
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-book:hover, .btn-info:hover {
+    background-color: #e65c00;
+}
+
+.btn-info {
+    background-color: #004080; /* Couleur pour "Plus d'infos" */
+}
+
+.btn-info:hover {
+    background-color: #003366;
+}
+
