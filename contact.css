@@ -1,0 +1,26 @@
+.information{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 150px;
+    margin-top: 0px;
+    background-color: rgba(0, 162, 255, 0.541);
+    background-size: cover;
+ } 
+ .ia{
+    font-size: 30px; 
+    text-decoration: none;
+    color:black;
+    }
+    .fa-envelope{
+        color: #000059;
+        font-size: 50px;
+    }
+    .fa-location-dot{
+        color: #000059;
+        font-size: 50px;
+    }
+    .fa-phone{
+        color: #000059;
+        font-size: 50px;
+    }

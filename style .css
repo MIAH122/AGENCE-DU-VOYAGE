@@ -18,7 +18,7 @@ i{
     font-size: 1rem;
 }
 .contenu1{
-    padding:0.5rem;
+    padding:0.1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -29,6 +29,7 @@ i{
     flex-direction: row;
     width: 50%;
     gap: 1rem;
+    margin-top: -.1rem;
 }
 .white{
     color: aliceblue;
@@ -44,6 +45,7 @@ i{
     display: flex;
     align-items: center;
     text-align: center;
+    margin-top: -.5rem;
 }
 .element{
     display: flex;
@@ -315,14 +317,119 @@ p{
     margin-right: 2px;
 }
 
-.information{
-   display: flex;
-   text-align: center;
-   justify-content: space-between;
-   font-size: 10;
-   padding: 150px;
-   margin-top: 0px;
-} 
+
+
+.destination {
+    background-color: #004080;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.si {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.rr {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+}
+
+/* Destinations */
+.destinations {
+    padding: 3rem 5%;
+    background: white;
+    /* background: black; */
+    height: 170vh;
+}
+
+.destinations h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.destination-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.destination-item:hover {
+    transform: scale(1.05);
+}
+
+.destination-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destination-item h3 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #004080;
+}
+
+.destination-item p {
+    padding: 0 1rem 1rem;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.price {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6600;
+    padding: 0 1rem 1rem;
+    text-align: right;
+}
+
+/* Pied de page */
+/* Style des boutons dans les destinations */
+.destination-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.btn-book, .btn-info {
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    background-color: #ff6600; /* Couleur pour "Réservez maintenant" */
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-book:hover, .btn-info:hover {
+    background-color: #e65c00;
+}
+
+.btn-info {
+    background-color: #004080; /* Couleur pour "Plus d'infos" */
+}
+
+.btn-info:hover {
+    background-color: #003366;
+}
+
+
 .HH{
     text-align: center;
     padding:1.5rem;
@@ -441,168 +548,3 @@ p{
     gap: 1rem;
 }
 
-
-.destination {
-    background-color: #004080;
-    color: #fff;
-    padding: 0.5rem;
-    text-align: center;
-    transition: transform 0.5s ease-in-out;
-}
-
-.si {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.rr {
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: white;
-}
-
-/* Destinations */
-.destinations {
-    padding: 3rem 5%;
-    background: white;
-    /* background: black; */
-    height: 170vh;
-}
-
-.destinations h2 {
-    text-align: center;
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 2rem;
-}
-
-.destination-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-}
-
-.destination-item {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.destination-item:hover {
-    transform: scale(1.05);
-}
-
-.destination-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.destination-item h3 {
-    padding: 1rem;
-    font-size: 1.5rem;
-    color: #004080;
-}
-
-.destination-item p {
-    padding: 0 1rem 1rem;
-    color: #555;
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
-.price {
-    display: block;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #ff6600;
-    padding: 0 1rem 1rem;
-    text-align: right;
-}
-
-/* Pied de page */
-/* Style des boutons dans les destinations */
-.destination-actions {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-}
-
-.btn-book, .btn-info {
-    text-decoration: none;
-    padding: 0.8rem 1.5rem;
-    background-color: #ff6600; /* Couleur pour "Réservez maintenant" */
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.btn-book:hover, .btn-info:hover {
-    background-color: #e65c00;
-}
-
-.btn-info {
-    background-color: #004080; /* Couleur pour "Plus d'infos" */
-}
-
-.btn-info:hover {
-    background-color: #003366;
-}
-.têtê h1{
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
-     'Trebuchet MS', sans-serif; 
-}
-.voyage{
-
-}
-.s-titre{
-    padding: 2rem;
-}
-.se{
-    margin-top: -2rem;
-}
-.remarque{
-    text-align: center;
-    margin-top: -3rem;
-}
-.s-titre2{
-    text-align: center;
-    margin-top: -1rem;
-}
-.se2{
-    margin-top: -0.5rem;
-}
-.s3{
-    margin-top: -0.5rem;
-}
-.détails{
-    text-align: center;
-}
-.se4{
-    margin-top: -0.5rem;
-}
-.s5{
-    margin-top: -0.5rem;
-}
-.hébergement{
-    text-align: center;
-}
-.s6{
-    margin-top: -0.5rem;
-}
-.s7{
-    margin-top: -0.5rem;
-}
-.condition{
-    text-align: center;
-}
-.s8{
-    margin-top: -0.5rem;
-}
-.s9{
-    margin-top: -0.5rem;
-}
