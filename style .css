@@ -312,6 +312,7 @@ p{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px; */
     display:flex;
+    margin-right: 2px;
 }
 
 .information{
@@ -550,4 +551,58 @@ p{
 .btn-info:hover {
     background-color: #003366;
 }
+.têtê h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+     'Trebuchet MS', sans-serif; 
+}
+.voyage{
 
+}
+.s-titre{
+    padding: 2rem;
+}
+.se{
+    margin-top: -2rem;
+}
+.remarque{
+    text-align: center;
+    margin-top: -3rem;
+}
+.s-titre2{
+    text-align: center;
+    margin-top: -1rem;
+}
+.se2{
+    margin-top: -0.5rem;
+}
+.s3{
+    margin-top: -0.5rem;
+}
+.détails{
+    text-align: center;
+}
+.se4{
+    margin-top: -0.5rem;
+}
+.s5{
+    margin-top: -0.5rem;
+}
+.hébergement{
+    text-align: center;
+}
+.s6{
+    margin-top: -0.5rem;
+}
+.s7{
+    margin-top: -0.5rem;
+}
+.condition{
+    text-align: center;
+}
+.s8{
+    margin-top: -0.5rem;
+}
+.s9{
+    margin-top: -0.5rem;
+}
